@@ -4,7 +4,7 @@
   "description": "基于webpack v4的前端资源打包工具",
   "scripts": {
     "pub": "git push origin && npm publish",
-    "commit": "npx git-cz"
+    "commit": "git-cz"
   },
   "bin": {
     "bubai-run": "./bin/bubai-run.js"
@@ -17,7 +17,7 @@
   "license": "ISC",
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     }
   },
   "dependencies": {
@@ -89,7 +89,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "commitizen": "^3.1.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^5.0.0",
