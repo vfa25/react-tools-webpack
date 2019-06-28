@@ -1,9 +1,9 @@
 {
   "name": "bubai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于webpack v4的前端资源打包工具",
   "scripts": {
-    "pub": "git push origin && npm publish",
+    "pub": "git push origin && sh .publish.sh",
     "commit": "git-cz"
   },
   "bin": {
