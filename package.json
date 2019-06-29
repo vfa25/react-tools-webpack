@@ -1,19 +1,24 @@
 {
   "name": "bubai",
-  "version": "1.0.1",
-  "description": "基于webpack v4的前端资源打包工具",
+  "version": "0.0.1",
+  "description": "基于webpack v4, 前端资源打包工具",
   "scripts": {
-    "pub": "git push origin && sh .publish.sh",
+    "pub": "sh publish.sh",
     "commit": "git-cz"
   },
   "bin": {
+    "bubai": "./bin/bubai.js",
     "bubai-run": "./bin/bubai-run.js"
   },
-  "author": "abukii",
+  "author": "vfa25",
   "repository": {
     "type": "git",
     "url": "https://github.com/vfa25/react-tools-webpack.git"
   },
+  "bugs": {
+    "url": "https://github.com/vfa25/react-tools-webpack/issues"
+  },
+  "homepage": "https://github.com/vfa25/react-tools-webpack/#readme",
   "license": "ISC",
   "config": {
     "commitizen": {
