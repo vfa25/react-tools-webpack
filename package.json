@@ -1,6 +1,6 @@
 {
   "name": "bubai",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "基于webpack v4, 前端资源打包工具",
   "scripts": {
     "pub": "sh publish.sh",
