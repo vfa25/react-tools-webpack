@@ -4,7 +4,8 @@
   "description": "基于webpack v4, 前端资源打包工具",
   "scripts": {
     "pub": "sh publish.sh",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "test": "jest --coverage"
   },
   "bin": {
     "bubai": "./bin/bubai.js",
@@ -105,5 +106,15 @@
   },
   "peerDependencies": {
     "typescript": ">=3.5.2"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 95,
+        "lines": 95,
+        "statements": 95
+      }
+    }
   }
 }
